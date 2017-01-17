@@ -1,0 +1,136 @@
+/* CSS Document */
+
+body
+{
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+	padding: 20px;
+}
+#currentUser{
+	text-align:right;
+	font-size: 10px;
+	color: #333;
+	padding-right: 5px;
+}
+#container
+{
+	margin: 0 auto;
+	width: 800px;
+	background:#FFF;
+	border-radius: 10px;
+}
+
+#header
+{
+	background:#FFF;
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align:center;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	width: 800px;
+	background:#333;
+    list-style-type: none;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+	text-align:center;
+}
+#navigation ul li {
+	display: inline-block;
+}
+
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+
+#navigation li a:hover 
+{ 
+	background:#383; 
+}
+
+#content
+{
+	clear: left;
+	padding: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	background:#ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	border-radius: 0px 0px 10px 10px;
+}
+table,th,td{
+	padding: 2px;
+	border-collapse: collapse;
+	border: 1px solid #333;
+}
+tr:nth-child(odd) 
+{
+	background: #CCC
+}
